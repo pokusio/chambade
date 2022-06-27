@@ -9,6 +9,7 @@ hugo server -b http://127.0.0.1:3131 -p 3131 -w
 
 
 ```bash 
+npm i -D surge
 
 export DEPLOYMENT_DOMAIN=chambade.surge.sh
 export DEPLOYMENT_BASE_URL=https://${DEPLOYMENT_DOMAIN}
@@ -29,6 +30,7 @@ hugoBuildNdeploy () {
   hugo -b ${DEPLOYMENT_BASE_URL}
 
   cp -fr ./public/* ./docs/
+  alias surge='node ./node_modules/surge/lib/cli.js'
   surge ./public "${DEPLOYMENT_DOMAIN}"
 }
 
