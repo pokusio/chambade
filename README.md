@@ -38,3 +38,6 @@ hugoBuildNdeploy () {
 hugoBuildNdeploy
 
 ```
+
+
+compte surge utilisé pour ddéployer : `stephane.chambade63@gmail.com` 
