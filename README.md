@@ -14,6 +14,8 @@ npm i -D surge
 export DEPLOYMENT_DOMAIN=chambade.surge.sh
 export DEPLOYMENT_BASE_URL=https://${DEPLOYMENT_DOMAIN}
 
+alias surge='node ./node_modules/surge/lib/cli.js';
+
 if [ -d ./docs ]; then
   rm -fr ./docs
 fi;
@@ -30,8 +32,7 @@ hugoBuildNdeploy () {
   hugo -b ${DEPLOYMENT_BASE_URL}
 
   cp -fr ./public/* ./docs/
-  alias surge='node ./node_modules/surge/lib/cli.js'
-  surge ./public "${DEPLOYMENT_DOMAIN}"
+  alias surge='node ./node_modules/surge/lib/cli.js' && surge ./public "${DEPLOYMENT_DOMAIN}"
 }
 
 

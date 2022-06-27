@@ -16,7 +16,7 @@ DefaultContentLanguageInSubdir = true
     [languages.en.params]
       introTitle = "Le projet Chambade Studios"
       introSubtitle = "Chambade Studios Chambade Studios Chambade Studios"
-      introPhoto = "/picture.jpg"
+      introPhoto = "/chambade/stephane_cinema_chambade.jpg"
       logo = "/blist-logo.png"
     [[languages.en.menu.main]]
         name = "Blog"
@@ -47,7 +47,7 @@ DefaultContentLanguageInSubdir = true
     [languages.de.params]
       introTitle = "Hallo, ich bin Chambade Studios"
       introSubtitle = "26-jährige Junior-Entwicklerin, die Spaß an sozialen Kartenspielen, Bloggen und Malen hat"
-      introPhoto = "/picture.jpg"
+      introPhoto = "/chambade/stephane_cinema_chambade.jpg"
       logo = "/blist-logo-de.png"
     [[languages.de.menu.main]]
         name = "Blog"
@@ -71,7 +71,7 @@ DefaultContentLanguageInSubdir = true
     [languages.fr.params]
       introTitle = "Salut! Je suis Chambade Studios"
       introSubtitle = "Développeuse junior de 26 ans qui adore les jeux de société, le blogging et la peinture"
-      introPhoto = "/picture.jpg"
+      introPhoto = "/chambade/stephane_cinema_chambade.jpg"
       logo = "/blist-logo.png"
     [[languages.fr.menu.main]]
         name = "Blog"
